@@ -19,6 +19,7 @@ body {
   justify-content: center;
   background-color: rgb(233, 233, 9);
   margin: 0;
+  height: 3rem;
 }
 
 .NavBar li {
@@ -26,9 +27,10 @@ body {
 }
 
 .NavBar a {
-  color: rgb(218, 16, 13);
-  text-decoration: none;
-}
+  color: darkblue;
+  width: 2rem;
+  height: auto;
+} 
 
 section {
   padding: 20px;
