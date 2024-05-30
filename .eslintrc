@@ -1,0 +1,7 @@
+{
+    "extends": ["react-app", "eslint:recommended"],
+    "rules": {
+      "jsx-a11y/img-redundant-alt": "warn",  // Change the rule to warning
+      // Add other rules here if needed
+    }
+  }
