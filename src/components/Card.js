@@ -3,7 +3,7 @@ import './../styles/Card.css';
 
 const Card = ({ photo, name }) => (
   <div className="card">
-    <img src={photo} alt={`${name}'s photo`} className="card-photo" />
+    <img src={photo} className="card-photo" />
     <div className="card-name">
       <h2>{name}</h2>
     </div>
