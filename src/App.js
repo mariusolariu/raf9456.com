@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import Card from './components/Card';
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <Home />
       <About />
       <Events />
-      <Membership />
+      <Officers />
       <Contact />
       <Footer />
     </div>
@@ -110,17 +111,19 @@ const Events = () => (
   </section>
 );
 
-const Membership = () => (
+const Officers = () => (
   <section id="membership">
-    <h2>Membership</h2>
-    <p>Membership is open to men over 18 from all backgrounds and the organisation’s aim is to empower members to be the best they can be – it’s about building character, supporting members as individuals and helping them make a positive contribution to society.</p>
+    <h2>Officers</h2>
+    <Card photo="./images/officers/peter.jpeg" name="W.M. Peter Wilkinson" />
   </section>
 );
 
 const Contact = () => (
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Contact information and a form for inquiries.</p>
+    <div className='home-content'>
+        <p>Membership is open to men over 18 from all backgrounds and the organisation’s aim is to empower members to be the best they can be – it’s about building character, supporting members as individuals and helping them make a positive contribution to society.</p>
+    </div>
   </section>
 );
 
