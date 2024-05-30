@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
 const Header = () => (
   <header className="App-header">
     <div class="header-content">
-      <h1>Royal Air Force L9456</h1>
+      <h1><strong>Royal Air Force L9456</strong></h1>
       <div class="wrapper">
         <div class="typing-demo">
           <strong> Ad astra per aspera </strong>
@@ -31,18 +32,6 @@ const Header = () => (
   </header>
 );
 
-const NavBar = () => (
-  <nav className="NavBar">
-    <ul>
-      <li><a href="#home"><strong>Home</strong></a></li>
-      <li><a href="#about"><strong>About Us</strong></a></li>
-      <li><a href="#history"><strong>History</strong></a></li>
-      <li><a href="#events"><strong>Events</strong></a></li>
-      <li><a href="#membership"><strong>Membership</strong></a></li>
-      <li><a href="#contact"><strong>Contact Us</strong></a></li>
-    </ul>
-  </nav>
-);
 
 const Home = () => (
   <section id="home">
