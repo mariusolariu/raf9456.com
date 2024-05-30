@@ -10,7 +10,7 @@ const App = () => {
       <NavBar />
       <Home />
       <About />
-      <Events />
+      <Meetings />
       <Officers />
       <Contact />
       <Footer />
@@ -104,10 +104,11 @@ const About = () => (
 );
 
 
-const Events = () => (
+const Meetings = () => (
   <section id="events">
-    <h2>Events</h2>
-    <p>Upcoming events and meetings.</p>
+    <h2>Meetings</h2>
+    <p>10 September 2024</p>
+    <p>12 November 2024</p>
   </section>
 );
 
