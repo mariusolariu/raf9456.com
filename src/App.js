@@ -38,7 +38,7 @@ const Home = () => (
 
     <h1><strong>Welcome to the Royal Air Force L9456</strong></h1>
     <div className="home-content">
-      <img src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/public/images/raf9456logo.png" alt="Lodge Emblem" className="lodge-logo" />
+      <img src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/raf9456logo.png" alt="Lodge Emblem" className="lodge-logo" />
       <div className="text-content">
         <p>One of the oldest secular social and charitable organisations in the world, modern Freemasonry’s roots lie in the traditions of the medieval stonemasons who built our castles and cathedrals.</p>
         <p>For Freemasons, there are four important values that help define their path through life: Integrity, Friendship, Respect and Service. In today’s world filled with uncertainty, these principles ring as true now as they have at any point in the organisation’s history.</p>
