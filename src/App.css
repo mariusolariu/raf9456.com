@@ -69,6 +69,7 @@ footer a {
   display: grid;
   place-items: center;
   font-family: monospace;
+  font-size: 2vw;
 }
 
 .typing-demo {
@@ -94,7 +95,7 @@ footer a {
 }
 
 .App-header {
-  background-image: url('../public/images/union-jack.svg');
+  background-image: url('./images/union-jack.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -108,17 +109,48 @@ footer a {
   font-size: 3vw;
 }
 
+.header-content {
+  padding: 2vh;
+  border-radius: 10px;
+  width: 80%;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 3rem;
+}
+
+.home-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2vh;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left;
+  color: white;
+}
+
+.lodge-logo {
+  width: 20vw; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 20px; /* Space between the image and the text */
+}
+
+.text-content {
+  flex: 1;
+}
+
+.text-content p {
+  margin: 0 0 10px; /* Spacing between paragraphs */
+}
+
 .App-header h1 {
   margin: 0;
-  font-size: 2vw; /* Responsive font size based on viewport width */
+  font-size: 3vw;
 }
 
 .App-header p {
   margin: 0;
-  font-size: 1vw; /* Responsive font size based on viewport width */
+  font-size: 1vw;
 }
 
-img {
-  height: 10rem;
-  width: 10rem;
-}
