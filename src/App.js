@@ -35,7 +35,8 @@ const Header = () => (
 
 const Home = () => (
   <section id="home">
-    <img src="header-image.jpg" alt="Lodge Emblem" />
+    <img src="./../public/images/raf9456log.png" alt="Lodge Emblem" />
+    
     <h1><strong>Welcome to the Royal Air Force L9456</strong></h1>
       <p> One of the oldest secular social and charitable organisations in the world, modern Freemasonry’s roots lie in the traditions of the medieval stonemasons who built our castles and cathedrals. </p>
 
