@@ -114,7 +114,7 @@ const Events = () => (
 const Officers = () => (
   <section id="membership">
     <h2>Officers</h2>
-    <Card photo="./images/officers/peter.jpeg" name="W.M. Peter Wilkinson" />
+    <Card photo="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/officers/peter.jpeg" name="W.M. Peter Wilkinson" />
   </section>
 );
 
