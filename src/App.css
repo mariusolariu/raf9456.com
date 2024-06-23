@@ -135,12 +135,31 @@ footer a {
   width: 20vw; /* Adjust the size as needed */
   height: auto;
   margin-right: 20px; /* Space between the image and the text */
+  float: left; /* Ensure the image floats to the left */
 }
 
 .text-content {
   flex: 1;
+  overflow: hidden; /* Prevent text from overflowing */
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column; /* Stack image on top of text */
+    align-items: center;
+  }
+
+  .lodge-logo {
+    width: 100%; /* Image takes full width on smaller screens */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+
+  .text-content {
+    width: 100%;
+  }
+}
 .text-content p {
   margin: 0 0 10px; /* Spacing between paragraphs */
 }
