@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left p {
+  margin: 0;
+}
+
+.footer-left a {
+  margin-right: 10px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 5rem; /* Adjust the size as needed */
+}
