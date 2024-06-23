@@ -125,7 +125,7 @@ footer a {
   border-radius: 10px;
   width: 90%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   text-align: left;
   color: white;

@@ -6,11 +6,14 @@ const Home = () => (
       <strong>Welcome to the Royal Air Force L9456</strong>
     </h1>
     <div className="home-content">
-      <img
-        src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/raf9456logo.png"
-        alt="Lodge Emblem"
-        className="lodge-logo"
-      />
+      <div className="logo-image-div">
+        <img
+          src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/raf9456logo.png"
+          alt="Lodge Emblem"
+          className="lodge-logo"
+        />
+      </div>
+
       <div className="text-content">
         <p>
           One of the oldest secular social and charitable organisations in the
