@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -30,7 +30,7 @@ body {
   color: darkblue;
   width: 2rem;
   height: auto;
-} 
+}
 
 section {
   padding: 20px;
@@ -75,7 +75,7 @@ footer a {
 
 .typing-demo {
   width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -85,18 +85,18 @@ footer a {
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
-    
+
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
 
 .App-header {
-  background-image: url('./images/union-jack.svg');
+  background-image: url("./images/union-jack.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -154,4 +154,3 @@ footer a {
   margin: 0;
   font-size: 1vw;
 }
-
