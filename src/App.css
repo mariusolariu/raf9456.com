@@ -6,7 +6,7 @@ body {
 
 .App-header {
   background-color: darkblue;
-  color: rgb(245, 255, 51);
+  color: #fffb02;
   padding: 20px;
   text-align: center;
 }
@@ -62,7 +62,7 @@ footer a {
 .center {
   display: grid;
   place-items: center;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 .wrapper {
@@ -80,7 +80,8 @@ footer a {
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
+  color: green;
 }
 
 @keyframes typing {
@@ -100,14 +101,13 @@ footer a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
   padding: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem; /* Adjust height as needed */
-  font-size: 3vw;
+  font-size: 2rem;
 }
 
 .header-content {
@@ -166,10 +166,6 @@ footer a {
 
 .App-header h1 {
   margin: 0;
-  font-size: 3vw;
-}
-
-.App-header p {
-  margin: 0;
-  font-size: 1vw;
+  color: green;
+  font-size: 2rem;
 }
