@@ -132,7 +132,6 @@ footer a {
 }
 
 .home-content {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 2vh;
   border-radius: 10px;
   width: 90%;
@@ -140,7 +139,6 @@ footer a {
   align-items: flex-start;
   flex-wrap: wrap;
   text-align: left;
-  color: white;
 }
 
 .lodge-logo {
