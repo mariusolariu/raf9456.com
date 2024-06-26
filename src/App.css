@@ -20,11 +20,11 @@ html {
 }
 
 .NavBar ul {
+  background-color: #c60c30;
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
   margin: 0;
   height: 3rem;
   align-items: center;
@@ -35,7 +35,7 @@ html {
 }
 
 .NavBar a {
-  color: darkblue;
+  color: yellow;
   width: 2rem;
   height: auto;
 }
@@ -109,7 +109,7 @@ footer a {
 }
 
 .App-header {
-  background-color: #9ab3cf;
+  background-color: #02468f;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
