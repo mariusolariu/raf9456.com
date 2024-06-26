@@ -37,6 +37,21 @@ const NavBar = () => {
             <strong>Contact us</strong>
           </a>
         </li>
+        <li>
+          <a href="#membership">
+            <strong>Young Masons Squadron</strong>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <strong>Blog</strong>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <strong>Privacy Policy</strong>
+          </a>
+        </li>
       </ul>
     </nav>
   );

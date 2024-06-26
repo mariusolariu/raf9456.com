@@ -6,7 +6,7 @@ body {
 
 .App-header {
   background-color: darkblue;
-  color: #fffb02;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
 }
@@ -16,7 +16,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: rgb(233, 233, 9);
+  background-color: #ffffff;
   margin: 0;
   height: 3rem;
   align-items: center;
@@ -81,7 +81,7 @@ footer a {
   border-right: 3px solid;
   font-family: monospace;
   font-size: 1.5rem;
-  color: green;
+  color: #ffffff;
 }
 
 @keyframes typing {
@@ -97,7 +97,7 @@ footer a {
 }
 
 .App-header {
-  background-image: url("./images/union-jack.svg");
+  background-color: #9ab3cf;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -166,6 +166,6 @@ footer a {
 
 .App-header h1 {
   margin: 0;
-  color: green;
+  color: #ffffff;
   font-size: 2rem;
 }

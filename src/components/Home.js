@@ -1,9 +1,10 @@
 import React from "react";
+import data from "../data.json";
 
 const Home = () => (
   <section id="home">
     <h1 class="center">
-      <strong>Welcome to the Royal Air Force L9456</strong>
+      <strong>{data.home.title}</strong>
     </h1>
     <div className="home-content">
       <div className="logo-image-div">
