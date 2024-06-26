@@ -1,10 +1,12 @@
 import React from "react";
+import data from "../data.json";
 
 const Meetings = () => (
   <section id="events">
     <h2>Meetings</h2>
-    <p>10 September 2024</p>
-    <p>12 November 2024</p>
+    {data.meetings.map((meeting) => (
+      <p>{meeting}</p>
+    ))}
   </section>
 );
 

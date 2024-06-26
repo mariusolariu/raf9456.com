@@ -1,11 +1,25 @@
 import React, { useState } from "react";
 import "./../App.css";
+import {
+  HOME,
+  ABOUT,
+  MEETINGS,
+  OFFICERS,
+  CONTACT,
+  YOUNG_MASONS,
+  BLOG,
+  PRIVACY,
+} from "./constants";
 
-const NavBar = () => {
+const NavBar = ({ onHeaderItemPressed }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleClick = (clickedItemName) => {
+    onHeaderItemPressed(clickedItemName);
   };
 
   return (
@@ -13,42 +27,42 @@ const NavBar = () => {
       <div className="menu-icon" onClick={toggleMenu}></div>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="#home">
+          <a href="#" onClick={() => handleClick(HOME)}>
             <strong>Home</strong>
           </a>
         </li>
         <li>
-          <a href="#about">
+          <a href="#" onClick={() => handleClick(ABOUT)}>
             <strong>About Us</strong>
           </a>
         </li>
         <li>
-          <a href="#events">
+          <a href="#" onClick={() => handleClick(MEETINGS)}>
             <strong>Meetings</strong>
           </a>
         </li>
         <li>
-          <a href="#membership">
+          <a href="#" onClick={() => handleClick(OFFICERS)}>
             <strong>Officers</strong>
           </a>
         </li>
         <li>
-          <a href="#contact">
+          <a href="#" onClick={() => handleClick(CONTACT)}>
             <strong>Contact us</strong>
           </a>
         </li>
         <li>
-          <a href="#membership">
+          <a href="#" onClick={() => handleClick(YOUNG_MASONS)}>
             <strong>Young Masons Squadron</strong>
           </a>
         </li>
         <li>
-          <a href="#contact">
+          <a href="#" onClick={() => handleClick(BLOG)}>
             <strong>Blog</strong>
           </a>
         </li>
         <li>
-          <a href="#contact">
+          <a href="#" onClick={() => handleClick(PRIVACY)}>
             <strong>Privacy Policy</strong>
           </a>
         </li>
