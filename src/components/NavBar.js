@@ -27,42 +27,42 @@ const NavBar = ({ onHeaderItemPressed }) => {
       <div className="menu-icon" onClick={toggleMenu}></div>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="#" onClick={() => handleClick(HOME)}>
+          <a href="javascript:;" onClick={() => handleClick(HOME)}>
             <strong>Home</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(ABOUT)}>
+          <a href="javascript:;" onClick={() => handleClick(ABOUT)}>
             <strong>About Us</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(MEETINGS)}>
+          <a href="javascript:;" onClick={() => handleClick(MEETINGS)}>
             <strong>Meetings</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(OFFICERS)}>
+          <a href="javascript:;" onClick={() => handleClick(OFFICERS)}>
             <strong>Officers</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(CONTACT)}>
+          <a href="javascript:;" onClick={() => handleClick(CONTACT)}>
             <strong>Contact us</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(YOUNG_MASONS)}>
+          <a href="javascript:;" onClick={() => handleClick(YOUNG_MASONS)}>
             <strong>Young Masons Squadron</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(BLOG)}>
+          <a href="javascript:;" onClick={() => handleClick(BLOG)}>
             <strong>Blog</strong>
           </a>
         </li>
         <li>
-          <a href="#" onClick={() => handleClick(PRIVACY)}>
+          <a href="javascript:;" onClick={() => handleClick(PRIVACY)}>
             <strong>Privacy Policy</strong>
           </a>
         </li>

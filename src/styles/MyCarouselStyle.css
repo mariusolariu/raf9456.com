@@ -1,0 +1,14 @@
+.carouselItem {
+  display: flex;
+  align-content: center;
+  padding: 2rem;
+  flex-wrap: nowrap;
+}
+
+.flex-text h3 {
+  margin-top: 0; /* Removes the default top margin */
+}
+
+.flex-text p {
+  margin: 0; /* Removes the default margins */
+}
