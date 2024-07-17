@@ -9,6 +9,7 @@ const carouselOptions = {
   infinite: true,
   autoplay: true,
   autoplaySpeed: 10000,
+  key: "test",
 };
 
 const carouselItem = {
