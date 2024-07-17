@@ -1,13 +1,13 @@
 import React from "react";
 
-const Header = () => (
+const MyHeader = () => (
   <header className="App-header">
     <div className="header-content">
       <h1>
         <strong>Royal Air Force L9456</strong>
       </h1>
-      <div class="wrapper">
-        <div class="typing-demo">
+      <div className="wrapper">
+        <div className="typing-demo">
           <strong> Ad astra per aspera </strong>
         </div>
       </div>
@@ -15,4 +15,4 @@ const Header = () => (
   </header>
 );
 
-export default Header;
+export default MyHeader;

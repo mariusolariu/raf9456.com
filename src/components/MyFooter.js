@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Footer.css";
 
-const Footer = () => (
+const MyFooter = () => (
   <footer>
     <p>&copy; 2024 Royal Air Force L9456</p>
     <ul>
@@ -16,11 +16,11 @@ const Footer = () => (
       </li>
     </ul>
     <img
-      class="footer-logo"
+      className="footer-logo"
       src="./images/raf9456LogoMini.png"
       alt="logo of lodge"
     ></img>
   </footer>
 );
 
-export default Footer;
+export default MyFooter;
