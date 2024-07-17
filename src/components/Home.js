@@ -32,6 +32,7 @@ const Home = () => {
             src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/raf9456logo.png"
             alt="Lodge Emblem"
             className="lodge-logo"
+            style={{ maxWidth: "30rem" }}
           />
         </div>
         <div className="text-content">

@@ -42,7 +42,7 @@ const FlexImage = styled.img`
   @media (max-width: 768px) {
     margin-right: 0;
     margin-bottom: 20px;
-    max-width: 100%;
+    max-width: 25rem;
   }
 `;
 
