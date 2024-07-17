@@ -19,6 +19,7 @@ const carouselItem = {
 const flexTextH3 = {
   maxWidth: "10rem",
   marginTop: 0,
+  textAlign: "left",
 };
 
 const FlexContainer = styled.div`
@@ -30,7 +31,7 @@ const FlexContainer = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 `;
 
