@@ -151,7 +151,7 @@ const App = () => {
           </Drawer>
         </Header>
 
-        <Content>
+        <Content className="contentStyle">
           <div className="root">
             <div className="main-content">{middleComponent}</div>
           </div>

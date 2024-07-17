@@ -140,11 +140,14 @@ footer a {
 .home-content {
   padding: 2vh;
   border-radius: 10px;
-  width: 80vw;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   text-align: left;
+}
+
+.contentStyle {
+  width: 80vw;
 }
 
 .lodge-logo {
