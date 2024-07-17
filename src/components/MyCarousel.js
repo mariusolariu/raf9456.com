@@ -8,7 +8,7 @@ const carouselOptions = {
   arrows: true,
   infinite: true,
   autoplay: true,
-  autoplaySpeed: 2500,
+  autoplaySpeed: 10000,
 };
 
 const carouselItem = {
