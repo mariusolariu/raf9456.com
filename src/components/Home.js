@@ -15,14 +15,14 @@ const Home = () => {
   // };
 
   return (
-    <section id="home">
+    <>
       <div
         style={{
           width: "100%",
           textAlign: "center",
         }}
       >
-        <h1 style={{ width: "90vw" }}>
+        <h1 style={{ width: "80vw" }}>
           <strong>{data.home.title}</strong>
         </h1>
       </div>
@@ -32,7 +32,7 @@ const Home = () => {
             src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/raf9456logo.png"
             alt="Lodge Emblem"
             className="lodge-logo"
-            style={{ maxWidth: "30rem" }}
+            style={{ maxWidth: "80vw" }}
           />
         </div>
         <div className="text-content">
@@ -59,7 +59,7 @@ const Home = () => {
           <MyCarousel></MyCarousel>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 
