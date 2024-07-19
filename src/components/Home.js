@@ -22,7 +22,7 @@ const Home = () => {
           textAlign: "center",
         }}
       >
-        <h1 style={{ width: "80vw" }}>
+        <h1>
           <strong>{data.home.title}</strong>
         </h1>
       </div>
