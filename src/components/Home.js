@@ -22,7 +22,7 @@ const Home = () => {
           textAlign: "center",
         }}
       >
-        <h1>
+        <h1 className="homeWelcomeMessage">
           <strong>{data.home.title}</strong>
         </h1>
       </div>

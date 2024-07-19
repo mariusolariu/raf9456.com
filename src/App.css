@@ -151,6 +151,10 @@ footer a {
   width: 100vw;
 }
 
+.homeWelcomeMessage {
+  width: 95vw;
+}
+
 .lodge-logo {
   width: 20vw; /* Adjust the size as needed */
   height: auto;
