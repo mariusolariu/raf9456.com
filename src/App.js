@@ -157,7 +157,7 @@ const App = () => {
           </div>
         </Content>
 
-        <Footer>
+        <Footer className="footerStyle">
           <MyFooter></MyFooter>
         </Footer>
       </Layout>

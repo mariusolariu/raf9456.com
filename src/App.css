@@ -151,6 +151,10 @@ footer a {
   width: 100vw;
 }
 
+.footerStyle {
+  padding: 0px;
+}
+
 .homeWelcomeMessage {
   width: 95vw;
   text-align: left;
