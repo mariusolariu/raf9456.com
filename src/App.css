@@ -153,6 +153,8 @@ footer a {
 
 .homeWelcomeMessage {
   width: 95vw;
+  text-align: left;
+  margin-left: 4vw;
 }
 
 .lodge-logo {
