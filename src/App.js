@@ -131,7 +131,7 @@ const App = () => {
             className="mobileVisible"
             type="primary"
             onClick={() => showDrawer()}
-            style={{ marginTop: "1rem", marginLeft: "34vw" }}
+            style={{ marginTop: "1rem" }}
           >
             <MenuOutlined />
             &nbsp;Menu
