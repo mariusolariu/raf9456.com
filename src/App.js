@@ -2,116 +2,118 @@ import React, { useState } from "react";
 import "./App.css";
 import Home from "./components/Home";
 import MyHeader from "./components/MyHeader";
-// import About from "./components/About";
-// import Meetings from "./components/Meetings";
-// import Officers from "./components/Officers";
-// import YoungMasons from "./components/YoungMasons";
-// import Blog from "./components/Blog";
-// import Privacy from "./components/Privacy";
-// import Contact from "./components/Contact";
+import About from "./components/About";
+import Meetings from "./components/Meetings";
+import Officers from "./components/Officers";
+import YoungMasons from "./components/YoungMasons";
+import Blog from "./components/Blog";
+import Privacy from "./components/Privacy";
+import Contact from "./components/Contact";
 import { Flex, Layout, Button, Menu, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import MyFooter from "./components/MyFooter";
-// import {
-//   HOME,
-//   ABOUT,
-//   MEETINGS,
-//   CONTACT,
-//   OFFICERS,
-//   YOUNG_MASONS,
-//   PRIVACY,
-//   BLOG,
-// } from "./components/constants";
+import {
+  HOME,
+  ABOUT,
+  MEETINGS,
+  CONTACT,
+  OFFICERS,
+  YOUNG_MASONS,
+  PRIVACY,
+  BLOG,
+} from "./components/constants";
 const { Header, Content, Footer } = Layout;
 
 const items = [
   {
-    label: "Home",
-    key: "mail",
+    label: <strong> Home </strong>,
+    key: HOME,
   },
   {
-    label: "About Us",
-    key: "about",
+    label: <strong> About Us</strong>,
+    key: ABOUT,
   },
   {
-    label: "Meetings",
-    key: "meetings",
+    label: <strong> Meetings </strong>,
+    key: MEETINGS,
   },
   {
-    label: "Officers",
-    key: "officers",
+    label: <strong> Officers</strong>,
+    key: OFFICERS,
   },
   {
-    label: "Young Masons Squadron",
-    key: "young",
+    label: <strong> Contatct us </strong>,
+    key: CONTACT,
   },
   {
-    label: "Blog",
-    key: "blog",
+    label: <strong> Young Masons Squadron </strong>,
+    key: YOUNG_MASONS,
   },
   {
-    label: "Privacy Policy",
-    key: "privacy",
+    label: <strong>Blog</strong>,
+    key: BLOG,
+  },
+  {
+    label: <strong>Privacy Policy</strong>,
+    key: PRIVACY,
   },
 ];
 
 const App = () => {
-  // const [activePage, setActivePage] = useState(HOME);
+  const [activePage, setActivePage] = useState(HOME);
   const [menuMobileVisible, setMobileMenuVisible] = useState(false);
 
-  // const updateActivePage = (newActivePage) => {
-  //   console.log("New active page: " + newActivePage);
-  //   setActivePage(newActivePage);
-  // };
+  const updateActivePage = ({ key }) => {
+    setActivePage(key);
+    onClose();
+  };
 
   const showDrawer = () => {
     setMobileMenuVisible(true);
-    console.log("Show menu items");
   };
 
   const onClose = () => {
-    console.log("close menu items");
     setMobileMenuVisible(false);
   };
 
   let middleComponent = <Home></Home>;
 
-  // switch (activePage) {
-  //   case HOME:
-  //     middleComponent = <Home></Home>;
-  //     break;
+  switch (activePage) {
+    case HOME:
+      middleComponent = <Home></Home>;
+      break;
 
-  //   case ABOUT:
-  //     middleComponent = <About></About>;
-  //     break;
+    case ABOUT:
+      middleComponent = <About></About>;
+      break;
 
-  //   case MEETINGS:
-  //     middleComponent = <Meetings></Meetings>;
-  //     break;
+    case MEETINGS:
+      middleComponent = <Meetings></Meetings>;
+      break;
 
-  //   case CONTACT:
-  //     middleComponent = <Contact></Contact>;
-  //     break;
+    case OFFICERS:
+      middleComponent = <Officers></Officers>;
+      break;
 
-  //   case OFFICERS:
-  //     middleComponent = <Officers></Officers>;
-  //     break;
+    case CONTACT:
+      middleComponent = <Contact></Contact>;
+      break;
 
-  //   case YOUNG_MASONS:
-  //     middleComponent = <YoungMasons></YoungMasons>;
-  //     break;
+    case YOUNG_MASONS:
+      middleComponent = <YoungMasons></YoungMasons>;
+      break;
 
-  //   case BLOG:
-  //     middleComponent = <Blog></Blog>;
-  //     break;
+    case BLOG:
+      middleComponent = <Blog></Blog>;
+      break;
 
-  //   case PRIVACY:
-  //     middleComponent = <Privacy></Privacy>;
-  //     break;
+    case PRIVACY:
+      middleComponent = <Privacy></Privacy>;
+      break;
 
-  //   default:
-  //     middleComponent = <Home></Home>;
-  // }
+    default:
+      middleComponent = <Home></Home>;
+  }
 
   return (
     <Flex gap="middle" wrap>
@@ -125,6 +127,7 @@ const App = () => {
               mode="horizontal"
               defaultSelectedKeys={["1"]}
               items={items}
+              onClick={updateActivePage}
             ></Menu>
           </div>
           <Button
@@ -147,6 +150,7 @@ const App = () => {
               mode="vertical"
               defaultSelectedKeys={["1"]}
               items={items}
+              onClick={updateActivePage}
             ></Menu>
           </Drawer>
         </Header>
