@@ -42,7 +42,7 @@ const items = [
     key: OFFICERS,
   },
   {
-    label: <strong> Contatct us </strong>,
+    label: <strong> Contact us </strong>,
     key: CONTACT,
   },
   {
