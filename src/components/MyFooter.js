@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 
 const MyFooter = () => (
   <footer>
-    <p>&copy; 2024 Royal Air Force L9456</p>
+    <p>&copy; 2024 Royal Air Force 9456</p>
     <ul>
       <li>
         <a href="https://facebook.com">Facebook</a>
