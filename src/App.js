@@ -26,35 +26,67 @@ const { Header, Content, Footer } = Layout;
 
 const items = [
   {
-    label: <strong> Home </strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Home </strong>{" "}
+      </span>
+    ),
     key: HOME,
   },
   {
-    label: <strong> About Us</strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> About Us </strong>{" "}
+      </span>
+    ),
     key: ABOUT,
   },
   {
-    label: <strong> Meetings </strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Meetings </strong>{" "}
+      </span>
+    ),
     key: MEETINGS,
   },
   {
-    label: <strong> Officers</strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Officers </strong>{" "}
+      </span>
+    ),
     key: OFFICERS,
   },
   {
-    label: <strong> Contact us </strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Contact Us </strong>{" "}
+      </span>
+    ),
     key: CONTACT,
   },
   {
-    label: <strong> Young Masons Squadron </strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Young Masons Squadron </strong>{" "}
+      </span>
+    ),
     key: YOUNG_MASONS,
   },
   {
-    label: <strong>Blog</strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Blog </strong>{" "}
+      </span>
+    ),
     key: BLOG,
   },
   {
-    label: <strong>Privacy Policy</strong>,
+    label: (
+      <span style={{ fontSize: "medium" }}>
+        <strong> Privacy Policy </strong>{" "}
+      </span>
+    ),
     key: PRIVACY,
   },
 ];
@@ -137,11 +169,16 @@ const App = () => {
             style={{ marginTop: "1rem" }}
           >
             <MenuOutlined />
-            &nbsp;Menu
+            &nbsp;<strong>Menu</strong>
           </Button>
 
           <Drawer
-            title="Menu"
+            title={
+              <span style={{ fontSize: "large" }}>
+                {" "}
+                <strong>Menu</strong>{" "}
+              </span>
+            }
             placement="right"
             onClose={() => onClose()}
             open={menuMobileVisible}

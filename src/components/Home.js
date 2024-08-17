@@ -32,6 +32,7 @@ const getFaqItems = (panelStyle) => [
         drink and meet together and form lifelong friendships.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "0",
@@ -43,6 +44,7 @@ const getFaqItems = (panelStyle) => [
         sort, even if they do not necessarily practice any particular religion.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "2",
@@ -65,6 +67,7 @@ const getFaqItems = (panelStyle) => [
         company. And most importantly, to have fun together.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "3",
@@ -78,6 +81,7 @@ const getFaqItems = (panelStyle) => [
         progress this becomes more elaborate.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "4",
@@ -105,6 +109,7 @@ const getFaqItems = (panelStyle) => [
         Lodges due to our mutual respect and close relations.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "5",
@@ -145,6 +150,7 @@ const getFaqItems = (panelStyle) => [
         </p>
       </>
     ),
+    style: panelStyle,
   },
   {
     key: "6",
@@ -163,6 +169,7 @@ const getFaqItems = (panelStyle) => [
         in England and Wales when travelling.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "7",
@@ -186,6 +193,7 @@ const getFaqItems = (panelStyle) => [
         around six million members.
       </p>
     ),
+    style: panelStyle,
   },
   {
     key: "8",
@@ -196,6 +204,7 @@ const getFaqItems = (panelStyle) => [
         although there are local variations.
       </p>
     ),
+    style: panelStyle,
   },
 ];
 
@@ -212,10 +221,13 @@ const Home = () => {
   const { token } = theme.useToken();
 
   const panelStyle = {
-    marginBottom: 24,
     background: token.colorFillAlter,
     borderRadius: token.borderRadiusLG,
-    border: "none",
+    fontSize: "medium",
+  };
+
+  const mediumFontSize = {
+    fontSize: "medium",
   };
 
   return (
@@ -286,8 +298,8 @@ const Home = () => {
 
           <p>
             Membership is open to people from all backgrounds and the
-            organisation’s aim is to empower members to be the best they can be
-            – it’s about building character, supporting members as individuals
+            organisation's aim is to empower members to be the best they can be
+            - it's about building character, supporting members as individuals
             and helping them make a positive contribution to society.
           </p>
 
@@ -298,20 +310,20 @@ const Home = () => {
 
           <p>
             There are two female-only Grand Lodges: The Order of Women
-            Freemasons and HFAF – Freemasonry for Women. They both follow
+            Freemasons and HFAF - Freemasonry for Women. They both follow
             exactly the same ceremonies and wear the same regalia as male
             Freemasons, and they often work closely with community and charity
             projects.
           </p>
 
-          <h4>The joining process</h4>
+          <h3>The joining process</h3>
 
           <Timeline
             items={[
               {
                 children: (
                   <>
-                    <p>
+                    <p style={mediumFontSize}>
                       <strong> 1. Register your interest </strong> <br></br>
                       All you need to do is simply contact us to register your
                       interest at{" "}
@@ -325,7 +337,7 @@ const Home = () => {
               {
                 children: (
                   <>
-                    <p>
+                    <p style={mediumFontSize}>
                       <strong> 2. Fill in a form</strong> <br></br>
                       We will then contact you and ask you to complete a short
                       form.
@@ -336,7 +348,7 @@ const Home = () => {
               {
                 children: (
                   <>
-                    <p>
+                    <p style={mediumFontSize}>
                       <strong> 3. Meeting us </strong> <br></br>
                       After receiving your short form, arrangements will be made
                       to meet you socially to find out more about you, and to

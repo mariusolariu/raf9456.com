@@ -10,6 +10,7 @@ html {
 .root {
   display: flex;
   flex-direction: column;
+  font-size: medium;
 }
 
 .App-header {
