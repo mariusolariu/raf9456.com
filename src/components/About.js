@@ -1,43 +1,31 @@
 import React from "react";
+import { Flex } from "antd";
 
 const About = () => (
   <section id="about">
-    <h2>About Us</h2>
-    <div className="home-content">
-      <h4>
-        {" "}
-        WHAT WE ARE <strong>(PURPOSE)</strong>
-      </h4>
+    <h3>History of the lodge</h3>
+
+    <Flex gap="middle" wrap>
       <p>
-        We are a unique members’ organisation that has thrived for over 300
-        years. Having no political or religious affiliations, we comprise
-        members of all ages, races, religions, cultures and backgrounds. We meet
-        in our individual Lodges throughout the country where we have ceremonial
-        traditions which encourage us both to be more tolerant and respectful
-        and actively to fulfil our civic and charitable responsibilities; we
-        also make time to eat, drink and meet together, and form lifelong
-        friendships.
+        RAF 9456 started as a Sunday lunch get together for a group or RAF
+        veteran’s.<br></br>
+        <br></br>
+        After two years it was formally, in 1992, established as a freemason
+        lodge. The only RAF freemasons lodge in the country to accept all RAF
+        ranks and those interested in the RAF. RAF 9456 founder members had four
+        DFC medal holders among them. Battle of Britain spitfire pilots, dam
+        buster raid airmen, airmen who put the bomb in Germany’s pocket battle
+        ship, Tirpitz, and pilots who had been shot down but escaped the Nazis
+        so they could go back and bombed them some more. <br></br>
+        <br></br>
+        Originally a fully peripatetic, travelling lodge, the members enjoyed
+        weekends away on bases, meeting up with old pals. The wives would
+        accompany the brethren and there was a vibrant social life. <br></br>
+        <br></br>
+        Today, RAF 9456 caries on the traditions of the founders with visits to
+        bases and a RAF centric culture which boasts the comradery of the RAF
+        together with a unique RAF identity and spirt.
       </p>
-
-      <h4>WHAT WE AIM FOR (VISION)</h4>
-      <p>
-        To attract those from all backgrounds and walks of life, enabling them
-        to develop into more thoughtful and confident people. To inspire and
-        challenge them to practise the core values we celebrate – Integrity,
-        Friendship, Respect, Service– in their private and public lives. To
-        cement our reputation as a force for good in our communities and society
-        at large and as a thriving organisation that people aspire to join.
-      </p>
-
-      <h4>HOW WE WILL ACHIEVE THIS (MISSION)</h4>
-      <br></br>
-
-      <p>
-        &nbsp; Over the next 7 years, we will enhance our reputation as a
-        thriving organisation that people aspire to join and broaden our
-        membership across all age groups.
-      </p>
-
       <p></p>
       <iframe
         width="550vw"
@@ -49,7 +37,7 @@ const About = () => (
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
-    </div>
+    </Flex>
   </section>
 );
 
