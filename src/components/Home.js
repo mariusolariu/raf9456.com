@@ -254,28 +254,30 @@ const Home = () => {
         <div className="text-content">
           <h3>What is Freemasony</h3>
           <p>What is Freemasonry and why might you become a Freemason?</p>
-          <strong>You will make new friendships.</strong>
           <p>
             Freemasonry offers its members opportunities to create a wide circle
             of enduring friendships. Through shared interests and encounters
             with individuals from varied backgrounds, Freemasonry fosters the
-            cultivation of lifelong bonds.
+            cultivation of lifelong bonds. <br></br>
+            <strong>You will make new friendships.</strong>
           </p>
-          <strong>You will develop yourself.</strong>
+
           <p>
             Freemasonry prioritises character building and individual support,
             laying the groundwork for members to enhance themselves. These
             principles enable personal growth, fostering attributes like
             heightened self-confidence and valuable skills such as public
-            speaking.
+            speaking. <br></br>
+            <strong>You will develop yourself.</strong>
           </p>
-          <strong>You will make a positive contribution to society.</strong>
+
           <p>
             Service lies at the core of Freemasonry, whether through event
             participation, fundraising for charitable endeavours, or
             volunteering for public and community organisations. Our members
             contribute significantly by donating their time, resources, and
-            skills.
+            skills.<br></br>
+            <strong>You will make a positive contribution to society.</strong>
           </p>
 
           <p>
