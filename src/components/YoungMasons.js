@@ -1,10 +1,12 @@
 import React from "react";
+import { Image, Flex } from "antd";
 
 const YoungMasons = () => {
   return (
-    <>
-      <h1>TODO: young masons</h1>
-    </>
+    <Flex vertical justify="center" align="center">
+      <h1>Page under construction</h1>
+      <Image width={620} src="./images/youngMasonsLogo.png" />
+    </Flex>
   );
 };
 
