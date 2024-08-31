@@ -1,12 +1,26 @@
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
   background-color: #f1f1f1;
   width: 100%;
   margin: 0;
   border: "1px solid red";
+}
+
+.flexFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerList {
+  list-style-type: none;
+  padding: 0;
+  margin: "1rem";
+  flex-direction: column;
+}
+
+.footerList li {
+  margin: 0.3rem;
 }
 
 .footer-left {
@@ -30,4 +44,8 @@ footer {
 .footer-logo {
   height: 11vh; /* Adjust the size as needed */
   padding-right: 2vw;
+}
+
+.disclaimerP {
+  text-align: left;
 }
