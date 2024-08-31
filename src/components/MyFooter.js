@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 const MyFooter = () => (
   <footer>
     <div className="flexFooter">
-      <p>&copy; 2024 Royal Air Force 9456</p>
+      <p>&copy; 2024 Warwickshire Royal Air Force 9456</p>
 
       <ul className="footerList">
         <li>
