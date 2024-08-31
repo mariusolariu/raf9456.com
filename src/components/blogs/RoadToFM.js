@@ -65,9 +65,8 @@ const RoadToFM = () => {
         />
         <p
           style={{
-            marginLeft: "2rem",
-            float: "right",
-            maxWidth: "45vw",
+            float: "left",
+            maxWidth: "50vw",
             fontSize: "medium",
           }}
         >
@@ -84,27 +83,25 @@ const RoadToFM = () => {
           further purchases increased the size of the estate to about 3,250
           acres. Notable regular guests included Prince Albert, later to become
           King Edward VII, and it was usual for a Mrs Lily Langtry to be on the
-          same guest list when the heir to the throne was present!
+          same guest list when the heir to the throne was present! <br></br>
+          <br></br>
+          The first military link to Halton House came with the threat of war in
+          Europe in 1913. Alfred offered free access to his estate to his friend
+          Lord Kitchener, and later gave all the famous beech trees to be used
+          to provide timber to build the trench network so indictive of the war
+          on the Western Front. Additionally, huge networks of trenches were
+          built on the estate to help train soldiers before going to the front.
+          Sadly, Alfred died in January 1918 and the bulk of the estate passed
+          to his nephew, Lionel, who had no interest in the estate. He accepted
+          an offer of £112,000 (about a thirds of the true value) from the
+          government, who realised it was cheaper to buy it than restore it to
+          its former condition. Plus, there were plans afoot that would lead to
+          the formation of the Royal Air Force and Halton was a part of those
+          plans. RAF Halton was the birthplace and home of the RAF
+          Apprenticeship scheme that was based there from 1922 until the mid
+          1990s when it was transferred to RAF Cosford.
         </p>
       </div>
-
-      <p>
-        The first military link to Halton House came with the threat of war in
-        Europe in 1913. Alfred offered free access to his estate to his friend
-        Lord Kitchener, and later gave all the famous beech trees to be used to
-        provide timber to build the trench network so indictive of the war on
-        the Western Front. Additionally, huge networks of trenches were built on
-        the estate to help train soldiers before going to the front. Sadly,
-        Alfred died in January 1918 and the bulk of the estate passed to his
-        nephew, Lionel, who had no interest in the estate. He accepted an offer
-        of £112,000 (about a thirds of the true value) from the government, who
-        realised it was cheaper to buy it than restore it to its former
-        condition. Plus, there were plans afoot that would lead to the formation
-        of the Royal Air Force and Halton was a part of those plans. RAF Halton
-        was the birthplace and home of the RAF Apprenticeship scheme that was
-        based there from 1922 until the mid 1990s when it was transferred to RAF
-        Cosford.
-      </p>
 
       <p>
         My association with RAF Halton began when I was posted to the Department
