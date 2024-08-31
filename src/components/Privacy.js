@@ -2,7 +2,7 @@ import React from "react";
 
 const Privacy = () => {
   return (
-    <div style={{ marginLeft: "1rem", marginBottom: "24rem" }}>
+    <div style={{ marginLeft: "1rem", marginBottom: "24rem", width: "95vw" }}>
       <h3>Who we are</h3>
       <p>Our website address is: https://raf9456.com</p>
       <h3>Embedded content from other websites</h3>
