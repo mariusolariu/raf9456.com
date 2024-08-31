@@ -30,7 +30,7 @@ const About = () => (
       <iframe
         width="550vw"
         height="500vw"
-        src="https://www.youtube.com/embed/PLwPnUvHdyk?si=-unLm_JYlXziSDqa"
+        src="https://www.youtube.com/embed/PLwPnUvHdyk?si=-unLm_JYlXziSDqa&rel=0"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
