@@ -299,10 +299,16 @@ const Home = () => {
           <h3>How to join our Lodge</h3>
 
           <p>
-            Membership is open to people from all backgrounds and the
-            organisation's aim is to empower members to be the best they can be
-            - it's about building character, supporting members as individuals
-            and helping them make a positive contribution to society.
+            Membership is open to people who have an interest in the Royal Air
+            Force. You don't have to be an RAF veteran to join our lodge but
+            rather you might have a keen interest in Military Aviation or indeed
+            have served in the RAF or any other British arm of the armed
+            services. We aim to be inclusive to all and whether Navy Army or Air
+            Force you are all welcome. Membership is open to people from all
+            backgrounds and the organisation's aim is to empower members to be
+            the best they can be - it's about building character, supporting
+            members as individuals and helping them make a positive contribution
+            to society.
           </p>
 
           <p>
@@ -369,6 +375,11 @@ const Home = () => {
           <Divider></Divider>
 
           <h3>Our Values</h3>
+          <p>
+            Our masonic values (Respect, Integrity, Service and Friendship)
+            align with those of the British Royal Air Force (Respect, Integrity,
+            Service, Excellence).
+          </p>
           <MyCarousel></MyCarousel>
 
           <h3>Browse our FAQ to learn more about Freemasonry</h3>
