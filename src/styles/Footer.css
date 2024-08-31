@@ -14,10 +14,8 @@ footer {
 }
 
 .footerList {
-  list-style-type: none;
   padding: 0;
   margin: "1rem";
-  flex-direction: column;
 }
 
 .footerList li {
