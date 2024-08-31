@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Layout, Menu } from "antd";
 import RoadToFM from "./blogs/RoadToFM";
 import "../styles/Blog.css";
+import CharityBowl from "./blogs/CharityBowl";
 
 const { Sider, Content } = Layout;
 
@@ -32,7 +33,7 @@ const Blog = () => {
       break;
 
     case "2":
-      blogComponent = <p>Test</p>;
+      blogComponent = <CharityBowl></CharityBowl>;
       break;
 
     default:
@@ -45,8 +46,7 @@ const Blog = () => {
         <div className="demo-logo-vertical" />
         <Menu theme="dark" mode="inline" onClick={handleMenuClick}>
           <Menu.Item key="1">{"The Road to Freemasonry"}</Menu.Item>
-          <Menu.Item key="2">nav 2</Menu.Item>
-          <Menu.Item key="3">nav 3</Menu.Item>
+          <Menu.Item key="2">The Charity Bowl</Menu.Item>
         </Menu>
       </Sider>
 
@@ -55,8 +55,6 @@ const Blog = () => {
           <div className="blogContentDiv">{blogComponent}</div>
         </Content>
       </Layout>
-
-      {/* <p style={{ marginBottom: "50rem" }}></p> */}
     </Layout>
   );
 };
