@@ -55,13 +55,7 @@ const RoadToFM = () => {
 
       <div>
         <Image src="./images/haltonEstate.png" className="responsive-image" />
-        <p
-          style={{
-            float: "left",
-            maxWidth: "50vw",
-            fontSize: "medium",
-          }}
-        >
+        <p className="textAroundImage">
           The famous Rothschild family settled in Buckinghamshire during the
           nineteenth century with five family homes being built. Only Waddesdon
           Manor and Halton House survive today. Building Halton House took just

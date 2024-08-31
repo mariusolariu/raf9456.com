@@ -12,6 +12,12 @@
   width: 80vw;
 }
 
+.textAroundImage {
+  float: left;
+  font-size: medium;
+  width: 50vw;
+}
+
 .responsive-image {
   width: 500px; /* Default width: full width of the parent */
   max-width: 500px; /* Max width to limit the size */
@@ -21,7 +27,11 @@
 
 @media (max-width: 768px) {
   .blogContentDiv {
-    max-width: 65vw;
+    padding-left: 1rem;
+  }
+
+  .textAroundImage {
+    width: 70vw;
   }
 
   .responsive-image {
