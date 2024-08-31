@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Layout, Menu } from "antd";
 import RoadToFM from "./blogs/RoadToFM";
-import "../App.css";
+import "../styles/Blog.css";
 
 const { Sider, Content } = Layout;
 
@@ -52,27 +52,11 @@ const Blog = () => {
 
       <Layout>
         <Content style={{ overflow: "initial", padding: 0, margin: 0 }}>
-          <div
-            style={{
-              padding: 0,
-              textAlign: "left", // Aligns text to the left
-              height: "100vh", // Makes the content take full height
-              display: "flex", // Flexbox to align content at the top-left
-              alignItems: "flex-start",
-              justifyContent: "flex-start",
-              flexDirection: "column",
-              paddingLeft: "3rem",
-              paddingTop: "1rem",
-              paddingRight: "1rem",
-              fontSize: "medium",
-            }}
-          >
-            {blogComponent}
-          </div>
+          <div className="blogContentDiv">{blogComponent}</div>
         </Content>
       </Layout>
 
-      <p style={{ marginBottom: "50rem" }}></p>
+      {/* <p style={{ marginBottom: "50rem" }}></p> */}
     </Layout>
   );
 };

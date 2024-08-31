@@ -1,0 +1,19 @@
+.blogContentDiv {
+  padding: 0;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  font-size: medium;
+  width: 80vw;
+}
+
+@media (max-width: 768px) {
+  .blogContentDiv {
+    max-width: 65vw;
+  }
+}

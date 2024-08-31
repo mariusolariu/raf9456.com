@@ -4,7 +4,7 @@ import { Image } from "antd";
 
 const RoadToFM = () => {
   return (
-    <div style={{ marginBottom: "5rem" }}>
+    <>
       <h1 class="centerBlogTitle">
         The road to Freemasonry: A Journey into Freemasonry
       </h1>
@@ -103,6 +103,7 @@ const RoadToFM = () => {
         </p>
       </div>
 
+      <div style={{ clear: "both" }}></div>
       <p>
         My association with RAF Halton began when I was posted to the Department
         of Training Design and Management in the summer of 1995. Most of the
@@ -117,7 +118,7 @@ const RoadToFM = () => {
         each week, and I regard myself as fortunate to have been a part of the
         living history on the Royal Air Force.
       </p>
-    </div>
+    </>
   );
 };
 
