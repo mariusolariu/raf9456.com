@@ -54,15 +54,7 @@ const RoadToFM = () => {
       </p>
 
       <div>
-        <Image
-          width={500}
-          src="./images/haltonEstate.png"
-          style={{
-            float: "left", // Float the image to the left
-            marginRight: "15px", // Add space between the image and text
-            marginBottom: "10px", // Optional: Add space below the image
-          }}
-        />
+        <Image src="./images/haltonEstate.png" className="responsive-image" />
         <p
           style={{
             float: "left",
