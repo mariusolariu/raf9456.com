@@ -245,7 +245,7 @@ const Home = () => {
       <div className="home-content">
         <div className="logo-image-div">
           <img
-            src="https://raw.githubusercontent.com/mariusolariu/raf9456.com/main/src/images/raf9456logo.png"
+            src="./images/raf9456logo.png"
             alt="Lodge Emblem"
             className="lodge-logo"
             style={{ maxWidth: "90vw" }}
