@@ -8,7 +8,7 @@ const MyHeader = () => (
       </h1>
       <div className="wrapper">
         <div className="typing-demo">
-          <strong> Ad astra per aspera </strong>
+          <strong> Per Ardua Ad Astra </strong>
         </div>
       </div>
     </div>

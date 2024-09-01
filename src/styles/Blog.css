@@ -35,14 +35,14 @@
   }
 
   .responsive-image {
-    max-width: 300px; /* Smaller max-width for tablets */
+    max-width: 400px; /* Smaller max-width for tablets */
     height: auto;
   }
 }
 
 @media (max-width: 480px) {
   .responsive-image {
-    max-width: 200px; /* Smaller max-width for mobile devices */
+    max-width: 300px; /* Smaller max-width for mobile devices */
     height: auto;
   }
 }
