@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const onFinish = (values) => {
   // Construct the mailto link
-  const mailtoLink = `mailto:&#114;&#97;&#102;&#108;&#111;&#100;&#103;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
+  const mailtoLink = `mailto:raflodge@gmail.com
 ?subject=${encodeURIComponent(values.subject)}&body=${encodeURIComponent(
     values.message
   )}`;
@@ -38,7 +38,7 @@ const Contact = () => {
         <p></p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.8577844743486!2d-1.7402590227370933!3d52.39112837202768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870b7a7f43baedd%3A0xb053ca937a870d41!2sKnowle%20Masonic%20Centre!5e0!3m2!1sen!2suk!4v1723994040732!5m2!1sen!2suk"
-          width="1000vw"
+          width="99%"
           height="600vh"
           style={{ border: "0" }}
           allowFullScreen=""
