@@ -56,14 +56,22 @@ const Meetings = () => (
         return (
           <>
             <p>
-              {meeting},{" "}
+              {meeting}, Submit menu preferences
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLScvmU0yCqpuFskQdIMxI0USli5didtM6GPE1neUiY5tAy61kg/viewform?embedded=true"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
-                Submit menu preferences here
+                here
+              </a>
+              , Ask for a summons{" "}
+              <a
+                href="https://raf9456november11meeting.splashthat.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
               </a>
             </p>
           </>
@@ -71,13 +79,13 @@ const Meetings = () => (
       } else {
         return (
           <>
-            {meeting},{" "}
+            {meeting}, Submit menu preferences{" "}
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeiBG5AXXDMh4Tpc79dyiRhG7CLsbg0xEGrE5vmgkrRuW7dVw/viewform"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Submit menu preferences here
+              here
             </a>
           </>
         );
