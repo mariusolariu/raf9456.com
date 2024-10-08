@@ -5,22 +5,16 @@ import { Badge, Calendar } from "antd";
 const getListData = (value) => {
   let listData = []; // Specify the type of listData
   // RAF Cosford visit
-  if (value.date() === 9 && value.month() === 8 && value.year() === 2024) {
-    console.log(value.date());
-    console.log(value.month());
-    console.log(value.year());
+  if (value.date() === 15 && value.month() === 11 && value.year() === 2024) {
     listData = [
       {
         type: "success",
-        content: "RAF Cosford visit",
+        content: "Christmas Luncheon",
       },
     ];
   }
 
   if (value.date() === 11 && value.month() === 10 && value.year() === 2024) {
-    console.log(value.date());
-    console.log(value.month());
-    console.log(value.year());
     listData = [
       {
         type: "success",
@@ -57,9 +51,39 @@ const CellRender = () => {
 const Meetings = () => (
   <section id="events">
     <h2>Meetings</h2>
-    {data.meetings.map((meeting) => (
-      <p>{meeting}</p>
-    ))}
+    {data.meetings.map((meeting) => {
+      if (meeting.slice(0, 2) === "11") {
+        return (
+          <>
+            <p>
+              {meeting},{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScvmU0yCqpuFskQdIMxI0USli5didtM6GPE1neUiY5tAy61kg/viewform?embedded=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Submit menu preferences here
+              </a>
+            </p>
+          </>
+        );
+      } else {
+        return (
+          <>
+            {meeting},{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeiBG5AXXDMh4Tpc79dyiRhG7CLsbg0xEGrE5vmgkrRuW7dVw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Submit menu preferences here
+            </a>
+          </>
+        );
+      }
+    })}
+    <p></p>
 
     <CellRender></CellRender>
   </section>
