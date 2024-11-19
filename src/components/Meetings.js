@@ -14,7 +14,7 @@ const getListData = (value) => {
     ];
   }
 
-  if (value.date() === 11 && value.month() === 10 && value.year() === 2024) {
+  if (value.date() === 10 && value.month() === 1 && value.year() === 2025) {
     listData = [
       {
         type: "success",
@@ -52,27 +52,12 @@ const Meetings = () => (
   <section id="events">
     <h2>Meetings</h2>
     {data.meetings.map((meeting) => {
-      if (meeting.slice(0, 2) === "11") {
+      if (meeting.slice(0, 2) === "10") {
         return (
           <>
             <p>
-              {meeting}, Submit menu preferences
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScvmU0yCqpuFskQdIMxI0USli5didtM6GPE1neUiY5tAy61kg/viewform?embedded=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                here
-              </a>
-              , Ask for a summons{" "}
-              <a
-                href="https://raf9456november11meeting.splashthat.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
+              {meeting}
+              <br></br>
             </p>
           </>
         );
@@ -87,6 +72,7 @@ const Meetings = () => (
             >
               here
             </a>
+            <br></br>
           </>
         );
       }
