@@ -3,6 +3,7 @@ import { Layout, Menu } from "antd";
 import RoadToFM from "./blogs/RoadToFM";
 import "../styles/Blog.css";
 import CharityBowl from "./blogs/CharityBowl";
+import TheRAF from "./blogs/TheRAF";
 
 const { Sider, Content } = Layout;
 
@@ -12,13 +13,15 @@ const Blog = () => {
   const handleMenuClick = ({ key }) => {
     switch (key) {
       case "1":
-        console.log(key);
         setActiveBlogArticleIndex("1");
         break;
 
       case "2":
-        console.log(key);
         setActiveBlogArticleIndex("2");
+        break;
+
+      case "3":
+        setActiveBlogArticleIndex("3");
         break;
       default:
         setActiveBlogArticleIndex(RoadToFM);
@@ -36,6 +39,10 @@ const Blog = () => {
       blogComponent = <CharityBowl></CharityBowl>;
       break;
 
+    case "3":
+      blogComponent = <TheRAF></TheRAF>;
+      break;
+
     default:
       blogComponent = <RoadToFM></RoadToFM>;
   }
@@ -47,6 +54,10 @@ const Blog = () => {
         <Menu theme="dark" mode="inline" onClick={handleMenuClick}>
           <Menu.Item key="1">{"The Road to Freemasonry"}</Menu.Item>
           <Menu.Item key="2">The Charity Bowl</Menu.Item>
+          <Menu.Item key="3">
+            The Royal Air Force – my part in its downfall, with apologies to
+            Spike Milligan
+          </Menu.Item>
         </Menu>
       </Sider>
 

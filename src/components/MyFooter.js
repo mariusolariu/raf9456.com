@@ -84,7 +84,7 @@ const MyFooter = () => (
       </ul>
     </div>
 
-    <p>&copy; 2024 Warwickshire Royal Air Force 9456</p>
+    <p>&copy; 2025 Warwickshire Royal Air Force 9456</p>
   </footer>
 );
 

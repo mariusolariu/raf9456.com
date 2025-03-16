@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "antd";
+import "../../styles/BlogArticle.css";
 
 const CharityBowl = () => {
   return (

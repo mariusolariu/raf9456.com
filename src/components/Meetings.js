@@ -4,17 +4,8 @@ import { Badge, Calendar } from "antd";
 
 const getListData = (value) => {
   let listData = []; // Specify the type of listData
-  // RAF Cosford visit
-  if (value.date() === 15 && value.month() === 11 && value.year() === 2024) {
-    listData = [
-      {
-        type: "success",
-        content: "Christmas Luncheon",
-      },
-    ];
-  }
 
-  if (value.date() === 10 && value.month() === 1 && value.year() === 2025) {
+  if (value.date() === 14 && value.month() === 4 && value.year() === 2025) {
     listData = [
       {
         type: "success",
@@ -52,30 +43,7 @@ const Meetings = () => (
   <section id="events">
     <h2>Meetings</h2>
     {data.meetings.map((meeting) => {
-      if (meeting.slice(0, 2) === "10") {
-        return (
-          <>
-            <p>
-              {meeting}
-              <br></br>
-            </p>
-          </>
-        );
-      } else {
-        return (
-          <>
-            {meeting}, Submit menu preferences{" "}
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeiBG5AXXDMh4Tpc79dyiRhG7CLsbg0xEGrE5vmgkrRuW7dVw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
-            </a>
-            <br></br>
-          </>
-        );
-      }
+      return <>{meeting}</>;
     })}
     <p></p>
 
